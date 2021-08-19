@@ -6,17 +6,17 @@ package bel.matvey.theme.conditional.Task_04.entity;
 
     String company;
 
-            public Stock(String companyPrice, int current) {
+            public Stock(String companyName, int current) {
                 this.minPrice = current;
                 this.maxPrice = current;
                 this.currentPrice = current;
-                this.company = companyPrice;
+                this.company = companyName;
             }
 
-            public void updatePrice (int stock){
-                if(this.maxPrice < stock)this.maxPrice = stock;
-                if(this.minPrice > stock)this.minPrice = stock;
-                this.currentPrice = stock;
+            public void updatePrice (int price){
+                if(this.maxPrice < price)this.maxPrice = price;
+                if(this.minPrice > price)this.minPrice = price;
+                this.currentPrice = price;
             }
 
             public void printInformation () {
