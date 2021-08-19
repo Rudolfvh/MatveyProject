@@ -1,4 +1,4 @@
-package bel.matvey.theme.conditional.Task_04;
+package bel.matvey.theme.conditional.Task_04.entity;
 
     public class Stock{
 
@@ -21,7 +21,7 @@ package bel.matvey.theme.conditional.Task_04;
 
             public void printInformation () {
                 System.out.print("Company = " + '"' + this.company + '"' + ", ");
-                System.out.print("Current Price = " + currentPrice + ", ");
+                System.out.print("Current Price = " + this.currentPrice + ", ");
                 System.out.print("Min Price = " + this.minPrice + ", ");
                 System.out.println("Max Price = " + this.maxPrice);
             }
