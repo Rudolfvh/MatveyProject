@@ -1,3 +1,5 @@
+package bel.matvey.theme.conditional.Task_01;
+
 import bel.matvey.theme.conditional.Task_01.entity.SignComparator;
 
 public class SignComparatorTest {
