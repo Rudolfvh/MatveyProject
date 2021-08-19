@@ -1,6 +1,6 @@
-package bel.matvey.theme.conditional.Task_04;
+package bel.matvey.theme.conditional.Task_04.entity;
 
-import bel.matvey.theme.conditional.Task_04.entity.Stock;
+import bel.matvey.theme.conditional.Task_04.Stock;
 
 public class StockTest {
     public static void main(String[] args) {

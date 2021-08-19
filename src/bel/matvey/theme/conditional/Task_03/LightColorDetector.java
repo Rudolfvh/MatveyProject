@@ -1,4 +1,4 @@
-package bel.matvey.theme.conditional.Task_03.entity;
+package bel.matvey.theme.conditional.Task_03;
 
 public class LightColorDetector {
     public String detect(int wavelenght){
