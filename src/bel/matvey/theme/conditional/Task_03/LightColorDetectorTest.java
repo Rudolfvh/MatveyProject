@@ -1,4 +1,4 @@
-package bel.matvey.theme.conditional.Task_03.entity;
+package bel.matvey.theme.conditional.Task_03;
 
 import bel.matvey.theme.conditional.Task_03.LightColorDetector;
 
