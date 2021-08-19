@@ -1,4 +1,4 @@
-package bel.matvey.theme.conditional.Task_04;
+package bel.matvey.theme.conditional.Task_04.entity;
 
     public class Stock{
 
