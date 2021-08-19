@@ -1,4 +1,4 @@
-package bel.matvey.theme.conditional.Task_02.entity;
+package bel.matvey.theme.conditional.Task_02;
 
 public class PhraseAnalyserTest {
     public static void main(String[] args) {
