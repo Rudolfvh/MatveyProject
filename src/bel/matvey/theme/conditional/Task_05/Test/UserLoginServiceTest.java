@@ -16,8 +16,7 @@ public class UserLoginServiceTest {
         service.login(user,"12354");
         service.login(user,"12354");
         service.login(user,"12354");
-        boolean equals = user.getBlockUser();
-        System.out.println(equals);
+        assertEquals(false,user.getBlockUser());
     }
 
     @Test
@@ -28,7 +27,6 @@ public class UserLoginServiceTest {
         service.login(user,"12354");
         service.login(user,"12352");
         service.login(user,"12354");
-        boolean equals = user.getBlockUser();
-        System.out.println(equals);
+        assertEquals(true,user.getBlockUser());
     }
 }
