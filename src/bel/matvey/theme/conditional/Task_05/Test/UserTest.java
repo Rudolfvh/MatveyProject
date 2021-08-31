@@ -13,8 +13,7 @@ public class UserTest {
         User user = new User("max","12354");
         UserLoginService service = new UserLoginService();
         service.login(user,"12354");
-        boolean equals = user.getPassword().equals(service.getUserServicePassword());
-        System.out.println(equals);
+        assertEquals(user.getPassword(),service.getUserServicePassword());
     }
 
     @Test
@@ -22,7 +21,6 @@ public class UserTest {
         User user = new User("max","12352");
         UserLoginService service = new UserLoginService();
         service.login(user,"12354");
-        boolean equals = user.getPassword().equals(service.getUserServicePassword());
-        System.out.println(equals);
+        assertEquals(user.getPassword(),service.getUserServicePassword());
     }
 }
