@@ -7,6 +7,7 @@ public class Tv{
     public int volume=0,chanel=1;
     private boolean turned = true;
 
+
     public void increaseChanel(){
         if(getChanel() <100 && getTurned()==true)setChanel(this.chanel+=1);
         if(getChanel() >100 && getTurned()==true)setChanel(1);
